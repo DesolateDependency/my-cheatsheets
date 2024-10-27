@@ -1,0 +1,5 @@
+# My GPU Cheatsheet
+Check which gpu drivers are being used by cards.
+```
+lspci -k | grep -A3 VGA
+```
